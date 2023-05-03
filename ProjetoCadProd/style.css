@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    
+    --pretoDnc: #303030; /* cor header */
+    --brancoDnc : rgb(239, 235, 228); /* cor body */
+    --Hover : black; /* cor hover button */
+    --azulMain: aliceblue; /* cor Main Cadastro de produto */
+    --cinzaBorder: #ccc; /* cor borda */
+
+}
+
+header{
+    background-color: var(--pretoDnc);
+    padding: 5px;
+    color: white;
+    display: grid;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    background-color: var(--azulMain);
+    border: 1px solid var(--cinzaBorder);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+
+.inputpd{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.inputpd input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cinzaBorder);
+}
+
+.card button{
+    border: 0;
+    padding: 10px;
+    color: var(--azulMain);
+    background-color: var(--pretoDnc);
+    border-radius: 5px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all ease 0.3s;
+}
+
+.card button:hover{
+    background-color: var(--Hover);
+}
+
+.conteudo {
+    margin-top: 15px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid --cinzaBorder var(--cinzaBorder);
+}
+
+table th{
+    background-color: var(--pretoDnc);
+    padding: 1px;
+    color: var(--azulMain);
+
+}
+
+table td {
+    padding: 1px;
+}
+
+table td img {
+    width: 25px;
+    cursor: pointer;
+}
+td_del {
+    width: 100px;
+    align-items: center;
+}
